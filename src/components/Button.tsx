@@ -1,11 +1,13 @@
-interface ButtonProps {
+import { ButtonHTMLAttributes } from 'react'
+
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     text: string;
 }
 
-export function Button({ text }: ButtonProps) {
+export function Button(props: ButtonProps) {
     return(
-        <button className="rounded-md bg-green h-11 px-12 text-primary-white font-semibold text-xl hover:opacity-80 hover:transition-opacity hover:duration-200">
-            {text}
+        <button {...props} className="rounded-md bg-green h-11 px-10 text-primary-white font-semibold text-lg hover:opacity-80 hover:transition-opacity hover:duration-200">
+            {props.text}
         </button>
     )
 }
