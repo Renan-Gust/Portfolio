@@ -9,16 +9,17 @@ module.exports = {
     colors: {
       'primary-white': '#F9F9F9',
       'primary-black': '#212429',
-      'secondary-color': '#A4A4A',
-  
-      'text': '#828282',
-      'green': '#00DF5E',
+      'primary-gray': '#A4A4A4',
+      'secondary-gray': '#828282',
       'gray': '#333333',
+      'green': '#00DF5E',
       'dark-gray': '#212121',
       'very-dark-gray': '#171717',
     },
     extend: {
-
+      screens: {
+        '3xl': '1700px'
+      }
     },
   },
   plugins: [],
