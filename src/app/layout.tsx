@@ -23,7 +23,7 @@ export default function RootLayout({
       <body className="bg-very-dark-gray">
         <Header />
 
-          <main className="pt-28 px-8 xl:px-52 h-screen">
+          <main className="pt-28 px-8 xl:px-52">
             {children}
           </main>
       </body>

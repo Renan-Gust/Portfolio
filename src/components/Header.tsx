@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 import { List, X } from 'phosphor-react';
 
-const menuItems = ["Sobre Mim", "Projetos", "Serviços", "Minhas Skills"];
+const menuItems = ["Home", "Serviços", "Sobre Mim", "Projetos", "Experiência"];
 
 export function Header() {
     const [active, setActive] = useState(false);
