@@ -4,7 +4,28 @@ import { useState } from 'react';
 
 import { List, X } from 'phosphor-react';
 
-const menuItems = ["Home", "Serviços", "Sobre Mim", "Projetos", "Experiência"];
+const menuItems = [
+    {
+        title: "Home",
+        href: "home",
+    },
+    {
+        title: "Serviços",
+        href: "services"
+    },
+    {
+        title: "Sobre Mim",
+        href: "about-me"
+    },
+    {
+        title: "Projetos",
+        href: "projects"
+    },
+    {
+        title: "Experiência",
+        href: "experience"
+    }
+];
 
 export function Header() {
     const [active, setActive] = useState(false);
@@ -22,7 +43,14 @@ export function Header() {
                     <nav className="fixed top-20 w-full bg-dark-gray h-screen left-0">
                         <ul className="flex flex-col items-center gap-4 mt-20 w-full">
                             {menuItems.map((item, index) => (
-                                <li key={index}><a href="">{item}</a></li>
+                                <li key={index}>
+                                    <a
+                                        href={`#${item.href}`}
+                                        onClick={() => setActive(false)}
+                                    >
+                                        {item.title}
+                                    </a>
+                                </li>
                             ))}
                         </ul>
                     </nav>
@@ -31,7 +59,11 @@ export function Header() {
                 <nav className="w-3/6 hidden md:block lg:w-1/3 xl:w-5/12 3xl:w-1/4">
                     <ul className="flex justify-between">
                         {menuItems.map((item, index) => (
-                            <li key={index}><a href="">{item}</a></li>
+                            <li key={index}>
+                                <a href={`#${item.href}`}>
+                                    {item.title}
+                                </a>
+                            </li>
                         ))}
                     </ul>
                 </nav>

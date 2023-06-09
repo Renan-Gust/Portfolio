@@ -6,7 +6,7 @@ import { Button } from "./Button";
 
 export function AboutMe() {
     return(
-        <section className="mb-72">
+        <section className="mb-72" id="about-me">
             <div className="flex flex-col lg:flex-row gap-6">
                 <article className="w-full min-w-[300px] max-w-[300px] mx-auto">
                     <div className="p-8 border border-solid border-gray rounded-md text-center">
