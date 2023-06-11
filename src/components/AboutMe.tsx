@@ -1,12 +1,14 @@
 import Image from "next/image";
 
-import euImg from '../../public/eu.webp';
 import { SocialMedia } from "./SocialMedia";
 import { Button } from "./Button";
+import { Techs } from "./Techs";
+
+import euImg from '../../public/eu.webp';
 
 export function AboutMe() {
     return(
-        <section className="mb-72" id="about-me">
+        <section className="mb-28" id="about-me">
             <div className="flex flex-col lg:flex-row gap-6">
                 <article className="w-full min-w-[300px] max-w-[300px] mx-auto">
                     <div className="p-8 border border-solid border-gray rounded-md text-center">
@@ -39,6 +41,8 @@ export function AboutMe() {
                     </div>
                 </article>
             </div>
+
+            <Techs />
         </section>
     )
 }

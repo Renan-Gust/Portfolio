@@ -22,7 +22,7 @@ export function Projects() {
     }
 
     return(
-        <section id="projects">
+        <section className="mb-28" id="projects">
             <h1 className="text-primary-white text-2xl font-bold uppercase text-center mb-8">Projetos</h1>
 
             <Filter />

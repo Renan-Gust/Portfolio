@@ -18,6 +18,7 @@ module.exports = {
     },
     extend: {
       screens: {
+        '2xl': '1366px',
         '3xl': '1700px'
       }
     },
