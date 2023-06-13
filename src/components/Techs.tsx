@@ -17,7 +17,7 @@ import { Wordpress } from '@styled-icons/boxicons-logos/Wordpress';
 
 export function Techs() {
     return(
-        <div className="flex gap-12 flex-wrap mt-14">
+        <div className="flex gap-12 justify-center flex-wrap mt-14">
             <Html5
                 className="w-10 h-10 text-secondary-gray hover:text-green hover:transition"
                 data-tooltip-id="my-tooltip"

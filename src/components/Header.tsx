@@ -56,7 +56,7 @@ export function Header() {
                     </nav>
                 }
 
-                <nav className="w-3/6 hidden md:block lg:w-1/3 xl:w-5/12 3xl:w-1/4">
+                <nav className="w-2/3 hidden md:block lg:w-1/2 3xl:w-1/3">
                     <ul className="flex justify-between">
                         {menuItems.map((item, index) => (
                             <li key={index}>

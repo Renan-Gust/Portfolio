@@ -9,7 +9,7 @@ export function Experience() {
 
             <div className="relative before:content-[''] before:w-1 before:h-full before:absolute before:bg-green before:left-auto md:before:left-1/2">
                 <article className="relative pt-6">
-                    <div className="absolute bg-green left-auto md:left-1/2 w-8 h-8 md:w-16 md:h-16 rounded-full -ml-4 md:-ml-8 flex justify-center items-center">
+                    <div className="absolute bg-green left-auto md:left-1/2 w-8 h-8 md:w-16 md:h-16 rounded-full -ml-4 md:-ml-8 flex justify-center items-center max-md:top-9">
                         <Briefcase color="#212121" className="w-6 h-6 md:w-8 md:h-8" />
                     </div>
 
@@ -28,7 +28,7 @@ export function Experience() {
 
             <div className="relative before:content-[''] before:w-1 before:h-full before:absolute before:bg-green before:left-auto md:before:left-1/2">
                 <article className="relative pt-6">
-                    <div className="absolute bg-green left-auto md:left-1/2 w-8 h-8 md:w-16 md:h-16 rounded-full -ml-4 md:-ml-8 flex justify-center items-center">
+                    <div className="absolute bg-green left-auto md:left-1/2 w-8 h-8 md:w-16 md:h-16 rounded-full -ml-4 md:-ml-8 flex justify-center items-center max-md:top-9">
                         <Briefcase color="#212121" className="w-6 h-6 md:w-8 md:h-8" />
                     </div>
 

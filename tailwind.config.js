@@ -19,7 +19,11 @@ module.exports = {
     extend: {
       screens: {
         '2xl': '1366px',
-        '3xl': '1700px'
+        '3xl': '1700px',
+        'laptop': {
+          'raw': '(max-height: 720px)'
+        },
+        'max-md': {'max': '767px'},
       }
     },
   },
