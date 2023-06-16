@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Devsfood",
+        "description": "Aplicativo resultante da semana Omnistack #10 da Rocketseat. A aplicação visa conectar desenvolvedores próximos de sua localização atual e que trabalham com as mesmas tecnologias.",
+        "links": {
+            "github": "www.google.com",
+            "website": "www.youtube.com"
+        },
+        "techs": ["ReactJS", "Styled Components", "TypeScript", "PHP", "MySQL"],
+        "category": "FULLSTACK",
+        "created_at": "16/06/2023"
+    },
+    {
+        "name": "Devsfood",
+        "description": "Aplicativo resultante da semana Omnistack #10 da Rocketseat. A aplicação visa conectar desenvolvedores próximos de sua localização atual e que trabalham com as mesmas tecnologias.",
+        "links": {
+            "github": "www.google.com",
+            "website": "www.youtube.com"
+        },
+        "techs": ["ReactJS", "Styled Components", "TypeScript", "PHP", "MySQL"],
+        "category": "FRONTEND",
+        "created_at": "16/06/2023"
+    },
+    {
+        "name": "Devsfood",
+        "description": "Aplicativo resultante da semana Omnistack #10 da Rocketseat. A aplicação visa conectar desenvolvedores próximos de sua localização atual e que trabalham com as mesmas tecnologias.",
+        "links": {
+            "github": "www.google.com",
+            "website": "www.youtube.com"
+        },
+        "techs": ["ReactJS", "Styled Components", "TypeScript", "PHP", "MySQL"],
+        "category": "FULLSTACK",
+        "created_at": "16/06/2023"
+    }
+]
