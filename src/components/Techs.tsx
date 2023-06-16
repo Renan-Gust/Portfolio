@@ -24,14 +24,12 @@ export function Techs() {
                 data-tooltip-content="HTML5"
                 data-tooltip-place="bottom"
             />
-
             <Css3
                 className="w-10 h-10 text-secondary-gray hover:text-green hover:transition"
                 data-tooltip-id="my-tooltip"
                 data-tooltip-content="CSS3"
                 data-tooltip-place="bottom"
             />
-
             <Javascript
                 className="w-10 h-10 text-secondary-gray hover:text-green hover:transition"
                 data-tooltip-id="my-tooltip"

@@ -3,6 +3,9 @@
 import { useEffect, useState } from "react";
 
 import { Globe, GithubLogo } from "phosphor-react";
+import { Javascript } from "@styled-icons/boxicons-logos/Javascript";
+import { Css3 } from "@styled-icons/boxicons-logos/Css3";
+import { Html5 } from "@styled-icons/boxicons-logos/Html5";
 
 import { Filter } from "./filter";
 
@@ -69,6 +72,11 @@ export function Projects() {
 
                         <div className="flex justify-between">
                             <div>
+                                <div className="flex gap-2 flex-wrap">
+                                    {project.techs.map((tech, index) => (
+                                        <span key={index} className="text-primary-white text-sm">{tech};</span>
+                                    ))}
+                                </div>
                                 <span className="text-secondary-gray text-sm">
                                     Criando em: {project.created_at}
                                 </span>
