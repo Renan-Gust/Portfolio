@@ -22,7 +22,6 @@ export function Filter({ projects, setProjects }: ProjectsProps) {
             const projectsFiltered = projects.filter(project => project.category === currentFilter);
             
             setProjects(projectsFiltered);
-            console.log(projectsFiltered);
         } else{
             setProjects(projects);
         }

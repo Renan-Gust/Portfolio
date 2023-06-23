@@ -83,7 +83,7 @@ export function Projects() {
                             </div>
 
                             <div className="flex gap-2 items-center">
-                                <a href={project.links.website} target="_blank">
+                                <a href={project.links.website || '#'} target="_blank">
                                     <Globe
                                         size={24}
                                         color={hoverActive && icon === "site" && projectName === project.name ? "#00DF5E" : "#828282"}
