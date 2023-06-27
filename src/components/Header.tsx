@@ -60,7 +60,7 @@ export function Header() {
                     <ul className="flex justify-between">
                         {menuItems.map((item, index) => (
                             <li key={index}>
-                                <a href={`#${item.href}`}>
+                                <a href={`#${item.href}`} className="relative after:content-[''] after:h-[2px] after:bg-green after:absolute after:bottom-0 after:left-0 after:right-0 after:scale-x-0 hover:after:scale-x-100 hover:after:origin-left after:duration-500">
                                     {item.title}
                                 </a>
                             </li>
