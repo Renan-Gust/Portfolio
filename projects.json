@@ -1,7 +1,7 @@
 [
     {
         "name": "DT Money",
-        "description": "Organize, planeje e analise seus projetos e atividades usando o todo app.",
+        "description": "Mantenha suas finanças sob controle com o dt money.",
         "links": {
             "github": "https://github.com/Renan-Gust/dt-money",
             "website": ""
@@ -12,10 +12,10 @@
     },
     {
         "name": "Devsfood",
-        "description": "",
+        "description": "Uma plataforma delivery.",
         "links": {
             "github": "https://github.com/Renan-Gust/devsfood",
-            "website": ""
+            "website": "https://web-devsfood.vercel.app"
         },
         "techs": ["ReactJS", "Styled Components", "TypeScript", "PHP", "MySQL"],
         "category": "FULLSTACK",
@@ -23,7 +23,7 @@
     },
     {
         "name": "eSports",
-        "description": "",
+        "description": "Uma plataforma que ajuda gamers a encontrar um parceiro ou parceira para jogar online seu game favorito, conectado a Twitch.",
         "links": {
             "github": "https://github.com/Renan-Gust/eSports",
             "website": ""
@@ -34,7 +34,7 @@
     },
     {
         "name": "Todo-app",
-        "description": "",
+        "description": "Organize, planeje e analise seus projetos e atividades usando o todo app.",
         "links": {
             "github": "https://github.com/Renan-Gust/Todo-app",
             "website": "https://web-todo-app.vercel.app"
