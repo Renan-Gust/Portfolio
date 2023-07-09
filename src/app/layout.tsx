@@ -1,6 +1,7 @@
 import './globals.css';
 
 import { DM_Sans } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/react';
 import { Header } from '@/components/Header';
 
 const dm = DM_Sans({
@@ -28,6 +29,7 @@ export default function RootLayout({
 
           <main className="pt-28 px-8 xl:px-52">
             {children}
+            <Analytics />
           </main>
       </body>
     </html>
