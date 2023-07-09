@@ -40,7 +40,9 @@ export function Projects() {
 
     useEffect(() => {
         (async () => {
-            const response = await fetch("http://localhost:3000/api/projects");
+            const BASEURL = window.location.hostname === "localhost" ? "http://localhost:3000" : "https://renangustavo.vercel.app"
+            const response = await fetch(`${BASEURL}/api/projects`);
+            
             const data = await response.json();
             setProjects(data);
             setFilteredProjects(data);
@@ -83,18 +85,20 @@ export function Projects() {
                             </div>
 
                             <div className="flex gap-2 items-center">
-                                <a href={project.links.website || '#'} target="_blank">
-                                    <Globe
-                                        size={24}
-                                        color={hoverActive && icon === "site" && projectName === project.name ? "#00DF5E" : "#828282"}
-                                        id="site"
-                                        onMouseOver={() => handleChangeIconColorMouseOver("site", project.name)}
-                                        onMouseOut={handleChangeIconColorMouseOut}
-                                        data-tooltip-id="my-tooltip"
-                                        data-tooltip-content="Acessar Website"
-                                        data-tooltip-place="top"
-                                    />
-                                </a>
+                                {project.links.website &&
+                                    <a href={project.links.website} target="_blank">
+                                        <Globe
+                                            size={24}
+                                            color={hoverActive && icon === "site" && projectName === project.name ? "#00DF5E" : "#828282"}
+                                            id="site"
+                                            onMouseOver={() => handleChangeIconColorMouseOver("site", project.name)}
+                                            onMouseOut={handleChangeIconColorMouseOut}
+                                            data-tooltip-id="my-tooltip"
+                                            data-tooltip-content="Acessar Website"
+                                            data-tooltip-place="top"
+                                        />
+                                    </a>
+                                }
 
                                 <a href={project.links.github} target="_blank">
                                     <GithubLogo

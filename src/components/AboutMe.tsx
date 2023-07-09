@@ -5,6 +5,7 @@ import { Button } from "./Button";
 import { Techs } from "./Techs";
 
 import euImg from '../../public/eu.webp';
+const urlCurriculo = '../../curriculo.pdf';
 
 export function AboutMe() {
     return(
@@ -35,7 +36,7 @@ export function AboutMe() {
 
                     <div className="flex flex-wrap justify-center md:justify-between items-center mt-4 gap-8">
                         <SocialMedia />
-                        <Button text="Download CV" className="w-full" />
+                        <Button text="Download CV" href={urlCurriculo} download={true} className="w-full" />
                     </div>
                 </article>
             </div>
