@@ -9,18 +9,18 @@ const menuItems = [
         title: "Home",
         href: "home",
     },
-    {
-        title: "Serviços",
-        href: "services"
-    },
+    // {
+    //     title: "Serviços",
+    //     href: "services"
+    // },
     {
         title: "Sobre Mim",
         href: "about-me"
     },
-    {
-        title: "Projetos",
-        href: "projects"
-    },
+    // {
+    //     title: "Projetos",
+    //     href: "projects"
+    // },
     {
         title: "Experiência",
         href: "experience"

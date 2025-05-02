@@ -9,16 +9,16 @@ import { Html5 } from "@styled-icons/boxicons-logos/Html5";
 import { Git } from "@styled-icons/boxicons-logos/Git";
 import { TailwindCss } from "@styled-icons/boxicons-logos/TailwindCss";
 import { Mysql } from "@styled-icons/simple-icons/Mysql";
-import { Typescript } from "@styled-icons/simple-icons/Typescript";
 import { Sass } from "@styled-icons/fa-brands/Sass";
 import { Php } from '@styled-icons/boxicons-logos/Php';
 import { Laravel } from '@styled-icons/fa-brands/Laravel';
 import { Wordpress } from '@styled-icons/boxicons-logos/Wordpress';
+import { Docker, Typescript } from "styled-icons/boxicons-logos";
 
 export function Techs() {
     return(
         <div className="flex gap-12 justify-center flex-wrap mt-14">
-            <Html5
+            {/* <Html5
                 className="w-10 h-10 text-secondary-gray hover:text-green hover:transition"
                 data-tooltip-id="my-tooltip"
                 data-tooltip-content="HTML5"
@@ -29,43 +29,43 @@ export function Techs() {
                 data-tooltip-id="my-tooltip"
                 data-tooltip-content="CSS3"
                 data-tooltip-place="bottom"
-            />
+            /> */}
             <Javascript
                 className="w-10 h-10 text-secondary-gray hover:text-green hover:transition"
                 data-tooltip-id="my-tooltip"
                 data-tooltip-content="Javascript"
                 data-tooltip-place="bottom"
             />
-            <TailwindCss
+            {/* <TailwindCss
                 className="w-10 h-10 text-secondary-gray hover:text-green hover:transition"
                 data-tooltip-id="my-tooltip"
                 data-tooltip-content="Tailwind CSS"
                 data-tooltip-place="bottom"
-            />
-            <Sass
+            /> */}
+            {/* <Sass
                 className="w-10 h-10 text-secondary-gray hover:text-green hover:transition"
                 data-tooltip-id="my-tooltip"
                 data-tooltip-content="SASS"
                 data-tooltip-place="bottom"
-            />
+            /> */}
             <Typescript
                 className="w-10 h-10 text-secondary-gray hover:text-green hover:transition"
                 data-tooltip-id="my-tooltip"
                 data-tooltip-content="Typescript"
                 data-tooltip-place="bottom"
             />
-            <Git
+            {/* <Git
                 className="w-10 h-10 text-secondary-gray hover:text-green hover:transition"
                 data-tooltip-id="my-tooltip"
                 data-tooltip-content="Git"
                 data-tooltip-place="bottom"
-            />
-            <Styledcomponents
+            /> */}
+            {/* <Styledcomponents
                 className="w-10 h-10 text-secondary-gray hover:text-green hover:transition"
                 data-tooltip-id="my-tooltip"
                 data-tooltip-content="Styled components"
                 data-tooltip-place="bottom"
-            />
+            /> */}
             <ReactLogo
                 className="w-10 h-10 text-secondary-gray hover:text-green hover:transition"
                 data-tooltip-id="my-tooltip"
@@ -100,6 +100,12 @@ export function Techs() {
                 className="w-10 h-10 text-secondary-gray hover:text-green hover:transition"
                 data-tooltip-id="my-tooltip"
                 data-tooltip-content="Wordpress"
+                data-tooltip-place="bottom"
+            />
+            <Docker
+                className="w-10 h-10 text-secondary-gray hover:text-green hover:transition"
+                data-tooltip-id="my-tooltip"
+                data-tooltip-content="Docker"
                 data-tooltip-place="bottom"
             />
         </div>

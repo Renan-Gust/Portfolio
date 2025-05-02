@@ -5,7 +5,7 @@ import { Button } from "./Button";
 import { Techs } from "./Techs";
 
 import euImg from '../../public/eu.webp';
-const urlCurriculo = '../../curriculo.pdf';
+const urlCurriculo = '../../renan-gustavo-cv.pdf';
 
 export function AboutMe() {
     return(
@@ -22,8 +22,7 @@ export function AboutMe() {
                         />
 
                         <p className="text-primary-white text-xl my-4">Renan Gustavo</p>
-
-                        <p className="text-secondary-gray">Fullstack developer com maior experiência na stack Javascript, React, NextJS, PHP e Laravel.</p>
+                        <p className="text-secondary-gray">Web developer com experiência em Javascript, React, NextJS, PHP e Laravel.</p>
                     </div>
                 </article>
 
@@ -31,7 +30,11 @@ export function AboutMe() {
                     <div>
                         <h1 className="text-primary-white text-2xl font-bold uppercase">Sobre Mim</h1>
 
-                        <p className="text-secondary-gray text-justify my-4">Sou um desenvolvedor web full stack com conhecimento em Javascript, React, NextJS, PHP e Laravel. Apaixonado por criar experiências digitais incríveis, tenho habilidades em desenvolvimento de interfaces envolventes e implementação de funcionalidades complexas. Estou comprometido em entregar projetos de alta qualidade. Sou autodidata, colaborativo e valorizo a comunicação eficaz. Estou pronto para enfrentar novos desafios e trabalhar em projetos inovadores. Vamos transformar suas ideias em realidade e criar algo incrível juntos!</p>
+                        <p className="text-secondary-gray text-justify my-4">
+                            Sou um desenvolvedor web com experiência em front-end e back-end. Meu objetivo é desenvolver aplicativos dinâmicos, escaláveis e otimizados, sempre com foco na experiência do usuário e na qualidade do código.
+                            <br />
+                            Ao longo da minha jornada, tive a oportunidade de trabalhar em diversos projetos desafiadores, o que me permitiu aprimorar minhas habilidades e explorar uma variedade de tecnologias. Adoro aprender coisas novas e estou sempre em busca de novas ferramentas e boas práticas de desenvolvimento para manter meu trabalho atualizado e eficiente.
+                        </p>
                     </div>
 
                     <div className="flex flex-wrap justify-center md:justify-between items-center mt-4 gap-8">
