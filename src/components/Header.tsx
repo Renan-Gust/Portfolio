@@ -17,10 +17,10 @@ const menuItems = [
         title: "Sobre Mim",
         href: "about-me"
     },
-    // {
-    //     title: "Projetos",
-    //     href: "projects"
-    // },
+    {
+        title: "Projetos",
+        href: "projects"
+    },
     {
         title: "Experiência",
         href: "experience"

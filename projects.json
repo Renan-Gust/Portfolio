@@ -1,46 +1,32 @@
 [
     {
-        "name": "DT Money",
-        "description": "Mantenha suas finanças sob controle com o dt money.",
+        "name": "Calculadora de investimentos",
+        "description": "Simule os rendimentos dos seus investimentos. Reajuste anual nos aportes para um planejamento financeiro mais eficiente",
         "links": {
-            "github": "https://github.com/Renan-Gust/dt-money",
-            "website": ""
+            "github": "",
+            "website": "https://calculadorasinvestimentos.com.br"
         },
-        "techs": ["ReactJS", "Styled Components", "TypeScript", "React Hook Form", "Zod", "Radix", "Swiper"],
-        "category": "FRONTEND",
-        "created_at": "23/05/2023"
+        "techs": ["ReactJS, Typescript"],
+        "category": "FRONTEND"
     },
     {
-        "name": "Devsfood",
-        "description": "Uma plataforma delivery.",
+        "name": "Gamifocus",
+        "description": "Gamifocus é um aplicativo que ajuda a melhorar sua produtividade, bloqueando sites distrativos e permitindo foco total.",
         "links": {
-            "github": "https://github.com/Renan-Gust/devsfood",
-            "website": "https://web-devsfood.vercel.app"
+            "github": "",
+            "website": "https://gamifocus.com.br"
         },
-        "techs": ["ReactJS", "Styled Components", "TypeScript", "PHP", "MySQL"],
-        "category": "FULLSTACK",
-        "created_at": "17/12/2022"
+        "techs": ["NextJS", "Laravel", "MySQL", "Extensão Chrome"],
+        "category": "FULLSTACK"
     },
     {
-        "name": "eSports",
-        "description": "Uma plataforma que ajuda gamers a encontrar um parceiro ou parceira para jogar online seu game favorito, conectado a Twitch.",
+        "name": "Classificador de e-mails",
+        "description": "Ferramenta para analisar o conteúdo de emails e gerar respostas automáticas de forma profissional utilizando técnicas de NLP.",
         "links": {
-            "github": "https://github.com/Renan-Gust/eSports",
-            "website": ""
+            "github": "https://github.com/Renan-Gust/email-classifier",
+            "website": "https://email-classifier-gamma.vercel.app"
         },
-        "techs": ["ReactJS", "TailwindCSS", "TypeScript", "Radix"],
-        "category": "FRONTEND",
-        "created_at": "13/09/2022"
-    },
-    {
-        "name": "Todo-app",
-        "description": "Organize, planeje e analise seus projetos e atividades usando o todo app.",
-        "links": {
-            "github": "https://github.com/Renan-Gust/Todo-app",
-            "website": "https://web-todo-app.vercel.app"
-        },
-        "techs": ["ReactJS", "Styled Components", "TypeScript"],
-        "category": "FRONTEND",
-        "created_at": "27/08/2022"
+        "techs": ["Python", "IA(OpenAI)"],
+        "category": "BACKEND"
     }
 ]

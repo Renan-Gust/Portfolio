@@ -22,7 +22,7 @@ export function AboutMe() {
                         />
 
                         <p className="text-primary-white text-xl my-4">Renan Gustavo</p>
-                        <p className="text-secondary-gray">Web developer com experiência em Javascript, React, NextJS, PHP e Laravel.</p>
+                        <p className="text-secondary-gray">Web developer com experiência em Javascript/Typescript, React, NextJS, PHP, Laravel e Wordpress.</p>
                     </div>
                 </article>
 

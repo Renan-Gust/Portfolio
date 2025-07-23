@@ -18,7 +18,6 @@ export interface Projects {
     };
     techs: string[];
     category: string;
-    created_at: string;
 }
 
 export function Projects() {
@@ -76,12 +75,11 @@ export function Projects() {
                             <div>
                                 <div className="flex gap-2 flex-wrap">
                                     {project.techs.map((tech, index) => (
-                                        <span key={index} className="text-primary-white text-sm">{tech};</span>
+                                        <span key={index} className="text-primary-white text-sm">
+                                            {tech}{index == (project.techs.length - 1) ? '.' : ','}
+                                        </span>
                                     ))}
                                 </div>
-                                <span className="text-secondary-gray text-sm">
-                                    Criando em: {project.created_at}
-                                </span>
                             </div>
 
                             <div className="flex gap-2 items-center">
@@ -100,18 +98,20 @@ export function Projects() {
                                     </a>
                                 }
 
-                                <a href={project.links.github} target="_blank">
-                                    <GithubLogo
-                                        size={24}
-                                        color={hoverActive && icon === "github" && projectName === project.name ? "#00DF5E" : "#828282"}
-                                        id="github"
-                                        onMouseOver={() => handleChangeIconColorMouseOver("github", project.name)}
-                                        onMouseOut={handleChangeIconColorMouseOut}
-                                        data-tooltip-id="my-tooltip"
-                                        data-tooltip-content="Acessar Github"
-                                        data-tooltip-place="top"
-                                    />
-                                </a>
+                                {project.links.github &&
+                                    <a href={project.links.github} target="_blank">
+                                        <GithubLogo
+                                            size={24}
+                                            color={hoverActive && icon === "github" && projectName === project.name ? "#00DF5E" : "#828282"}
+                                            id="github"
+                                            onMouseOver={() => handleChangeIconColorMouseOver("github", project.name)}
+                                            onMouseOut={handleChangeIconColorMouseOut}
+                                            data-tooltip-id="my-tooltip"
+                                            data-tooltip-content="Acessar Github"
+                                            data-tooltip-place="top"
+                                        />
+                                    </a>
+                                }
                             </div>
                         </div>
                     </article>

@@ -13,7 +13,7 @@ import { Sass } from "@styled-icons/fa-brands/Sass";
 import { Php } from '@styled-icons/boxicons-logos/Php';
 import { Laravel } from '@styled-icons/fa-brands/Laravel';
 import { Wordpress } from '@styled-icons/boxicons-logos/Wordpress';
-import { Docker, Typescript } from "styled-icons/boxicons-logos";
+import { Docker, Typescript, Graphql } from "styled-icons/boxicons-logos";
 
 export function Techs() {
     return(
@@ -106,6 +106,12 @@ export function Techs() {
                 className="w-10 h-10 text-secondary-gray hover:text-green hover:transition"
                 data-tooltip-id="my-tooltip"
                 data-tooltip-content="Docker"
+                data-tooltip-place="bottom"
+            />
+            <Graphql
+                className="w-10 h-10 text-secondary-gray hover:text-green hover:transition"
+                data-tooltip-id="my-tooltip"
+                data-tooltip-content="GraphQL"
                 data-tooltip-place="bottom"
             />
         </div>
