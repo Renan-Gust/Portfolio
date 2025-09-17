@@ -1,7 +1,17 @@
 [
     {
+        "name": "Projeto MVC",
+        "description": "Estou desenvolvendo um projeto MVC, focado em agilidade no desenvolvimento para soluções que não necessitam de um framework.",
+        "links": {
+            "github": "https://github.com/Renan-Gust/mv",
+            "website": ""
+        },
+        "techs": ["PHP, MySQL"],
+        "category": "BACKEND"
+    },
+    {
         "name": "Calculadora de investimentos",
-        "description": "Simule os rendimentos dos seus investimentos. Reajuste anual nos aportes para um planejamento financeiro mais eficiente",
+        "description": "Simule os rendimentos dos seus investimentos. Reajuste anual nos aportes para um planejamento financeiro mais eficiente.",
         "links": {
             "github": "",
             "website": "https://calculadorasinvestimentos.com.br"
