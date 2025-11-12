@@ -15,25 +15,25 @@ export function AboutMe() {
                     <div className="p-8 border border-solid border-gray rounded-md text-center">
                         <Image
                             src={euImg}
-                            alt=""
+                            alt="Renan Gustavo"
                             height={130}
                             width={130}
                             className="rounded-full object-cover h-[130px] mx-auto"
                         />
 
                         <p className="text-primary-white text-xl my-4">Renan Gustavo</p>
-                        <p className="text-secondary-gray">Web developer com experiência em Javascript/Typescript, React, NextJS, PHP, Laravel e Wordpress.</p>
+                        <p className="text-secondary-gray">
+                            Javascript | Typescript | ReactJS | NextJS | PHP | MySQL | Wordpres | Docker | Laravel | GraphQL | AWS | Cloudflare | Cibersegurança
+                        </p>
                     </div>
                 </article>
 
-                <article className="flex flex-col justify-between">
+                <article className="flex flex-col justify-center">
                     <div>
                         <h1 className="text-primary-white text-2xl font-bold uppercase">Sobre Mim</h1>
 
                         <p className="text-secondary-gray text-justify my-4">
-                            Sou um desenvolvedor web com experiência em front-end e back-end. Meu objetivo é desenvolver aplicativos dinâmicos, escaláveis e otimizados, sempre com foco na experiência do usuário e na qualidade do código.
-                            <br />
-                            Ao longo da minha jornada, tive a oportunidade de trabalhar em diversos projetos desafiadores, o que me permitiu aprimorar minhas habilidades e explorar uma variedade de tecnologias. Adoro aprender coisas novas e estou sempre em busca de novas ferramentas e boas práticas de desenvolvimento para manter meu trabalho atualizado e eficiente.
+                            Sou um desenvolvedor focado em criar aplicativos dinâmicos, escaláveis e otimizados. Ao longo da minha jornada, trabalhei em diversos projetos desafiadores, sempre buscando entregar soluções eficientes. Tenho um forte compromisso com a qualidade do código e a experiência do usuário, além de estar sempre em busca de novas ferramentas e boas práticas de desenvolvimento.
                         </p>
                     </div>
 

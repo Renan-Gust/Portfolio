@@ -6,7 +6,7 @@ export function SocialMedia() {
     return(
         <article className="flex gap-2">
             <div className="p-1 bg-gray cursor-pointer rounded-md">
-                <a href="mailto:renandevfullstack@gmail.com" target="_blank">
+                <a href="mailto:renangustavo.dev@gmail.com" target="_blank">
                     <Envelope size={26} color="#00DF5E" />
                 </a>
             </div>

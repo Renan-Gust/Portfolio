@@ -4,6 +4,7 @@
 
 * {
     scroll-behavior: smooth;
+    scroll-padding: 80px;
 }
 
 ::-webkit-scrollbar {

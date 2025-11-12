@@ -13,10 +13,11 @@ export function Banner() {
                     <div className="mb-4">
                         <span className="text-secondary-gray text-2xl">Olá, eu sou o</span>
                         <h1 className="text-primary-white text-6xl font-bold my-1">Renan Gustavo</h1>
-                        <p className="text-secondary-gray text-2xl mb-8">Desenvolvedor web</p>
+                        <p className="text-secondary-gray text-2xl mb-8">Desenvolvedor</p>
 
                         <Button text="Saiba Mais" href="#about-me" />
                     </div>
+                    
                     <SocialMedia />
                 </div>
                 
